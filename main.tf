@@ -12,5 +12,5 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "this" {
-  bucket = "fiap-techchallenge-automated-bucket-tf"
+  bucket = "fiap-techchallenge-automated-bucket-tf-v2"
 }
