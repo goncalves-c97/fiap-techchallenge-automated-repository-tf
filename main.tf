@@ -20,7 +20,7 @@ resource "aws_s3_bucket" "this" {
   bucket = "fiap-techchallenge-automated-bucket-tf-v2"
 
   tags = {
-    Name        = "Tag name por Pull Request"
+    Name        = "Pull Request Tag Update Test"
     Environment = "Dev"
   }
 }
