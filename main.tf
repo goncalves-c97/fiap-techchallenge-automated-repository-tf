@@ -1,4 +1,9 @@
 terraform {
+  backend "s3" {
+    bucket = "fiap-techchallenge-terraform-states"
+    key    = "terraform.tfstate"
+    region = "us-east-1"
+  }
   required_providers {
     aws = {
       source  = "hashicorp/aws"
